@@ -1,16 +1,78 @@
-
-<html>
-    <h1>
-        Hey, I'm Kyle the Product Guy
-    </h1>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle the Product Guy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            padding-top: 50px;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px #ccc;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+            font-size: 24px;
+        }
+        p {
+            color: #777;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #00bcd4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey, I'm Kyle the Product Guy</h1>
+    <div class="container">
+        <img class="profile-pic" src="your-profile-picture.jpg" alt="Kyle the Product Guy">
         <h2>About me</h2>
-        <p>
-            I break down complex technical problems into small, release-able, user valuable features.
-        </P>
+        <p>I break down complex technical problems into small, release-able, user valuable features.</p>
         <h2>What I'm working on</h2>
-        <p>
-            I am currently on this website to as a place to showcase my accomplishments as a Product Manager, as well as interests and hobbies.
-        </p>
-    </body>
+        <p>I am currently on this website to as a place to showcase my accomplishments as a Product Manager, as well as interests and hobbies.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/yourtwitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</body>
 </html>
